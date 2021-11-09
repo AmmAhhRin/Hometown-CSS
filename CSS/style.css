@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@800&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@800&family=Roboto+Slab&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300&family=Poppins:wght@800&family=Roboto+Slab&family=Rubik:wght@700&display=swap');
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.cover{
+    height: 413px;
+    margin-bottom: 0px;
+}
+.cover img{
+    width: 100%;
+    position: absolute;
+}
+.crop{
+    width: 200px; /* width of container */
+    height: 400px; /* height of container */
+    object-fit: cover;
+}
+.cover .value{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(180, 180, 134);
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+}
+.cover .value h1{
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(59, 54, 54);
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(180, 180, 134);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
+}
+.nav-bar ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 35px;
+    padding-right: 50px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar ul li a:hover{
+    color: blue;
+    font-size: 27px;
+}
+.main-container{
+    margin-top: 10px;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.destination{
+    height: 1125px; 
+    background-color: rgb(180, 180, 134);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.destination h3{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.destination .top-de{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-right: 210px;
+}
+.destination .bot-de{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 210px;
+}
+.destination img{
+    width: 290px;
+}
+.destination h4{
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+.destination p{
+    font-size: 15px;
+    justify-content: center;
+}
+.destination .content-1{
+    height: 460px;
+    width: 300px;
+    background-color: darkslategray;
+    padding: 10px;
+}
+.destination .content-2{
+    height: 460px;
+    width: 300px;
+    background-color: darkslategray;
+    padding: 10px;
+}
+.destination .content-3{
+    height: 460px;
+    width: 300px;
+    background-color: darkslategray;
+    padding: 10px;
+}
+.destination .content-4{
+    height: 460px;
+    width: 300px;
+    background-color: darkslategray;
+    padding: 10px;
+}
+.destination .content-5{
+    height: 460px;
+    width: 300px;
+    background-color: darkslategray;
+    padding: 10px;
+}
+.destination .content-6{
+    height: 460px;
+    width: 300px;
+    background-color: darkslategray;
+    padding: 10px;
+}
+.food{
+    display: flex;
+    flex-direction: column;
+    height: 385px;
+    text-align: center;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+}
+.food h3{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+.content{
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 0.5px rgb(148, 142, 142) solid;
+}
+.content img{
+    width: 200px;
+}
+.box{
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.box h4{
+    margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0px;
+}
+.content button{
+    margin-top: 0px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(180, 180, 134);
+}
+.content button:hover{
+    color: black;
+    width: 108px;
+    height: 33px;
+    font-weight: bold;
+}
+.award{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.award h3{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    
+}
+.award-content{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.award-content .text{
+    margin-left: 45px;
+    height: 370px;
+    width: 610px;
+    background-color: rgb(180, 180, 134);
+    margin-right: 20px;
+}
+.award-content h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    /* margin-right: 300px; */
+    margin-left: 10px;
+}
+.text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    width:400px ;
+    text-align: justify;
+    margin-left: 115px;
+}
+.media{
+    display: flex;
+    flex-direction: column;
+}
+.media img{
+    width: 250px;
+    padding-right:50px ;
+}
+.media .top-img{
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+.media .bot-img{
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+.footer-container{
+    margin-top: 930px;
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+    height: 192px;
+    /* align-items: center; */
+}
+.footer-content .icon ul li {
+    list-style-type: none;
+    padding-left:30px;
+    padding-right: 20px;
+    
+}
+.footer-content .icon ul{
+    display: flex;
+    flex-direction: row;
+}
+.footer-container .info ul li{
+    list-style-type: none;
+    padding-left: 25px;
+    font-size: 17.5px;
+}
+.footer-container .info ul{
+    display: flex;
+    flex-direction: row;
+}
+.info ul li:hover{
+    color: crimson;
+    font-weight: bold;
+}
+.icon{
+    margin-top: 45px;
+    margin-bottom: 0px;
+    margin-left: 420px;
+}
+.info{
+    margin-top: 0px;
+    margin-left: 445px;
+}
+.icon ul li i{
+    font-size: 40px;
+}
+.icon ul li i:hover{
+    color: crimson;
+}
+.cp-right{
+    text-align: center;
+    padding: 1px;
+    background-color: rgb(180, 180, 134);
+}
+.cp-right p{
+    font-size: 17px;
+}
+
